@@ -1,2 +1,2 @@
 # random_scripts
-Random scripts used in various pipelines
+Random scripts used with various programs

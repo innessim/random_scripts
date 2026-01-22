@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# strict: biallelic SNPs, per-genotype DP>=8 & GQ>=30, site present in >=90% samples, MAF>=0.05
 # Filter VCF
 
 bcftools view -m2 -M2 -v snps ../ipyrad_output/lib_set.vcf.gz \
